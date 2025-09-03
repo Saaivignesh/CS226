@@ -31,3 +31,7 @@ Customer order data should only be shared between the customer, restaurant, and 
 
 Primary — [Food Delivery Orders]  
 Adjacent — [Payments], [Logistics/Location]
+
+AI Use: Draft text and signals were brainstormed with the assistance of an AI tool (OpenAI ChatGPT).
+
+
