@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coursework SYSTEM "domain.dtd">
+<coursework>
+    <assignment id="A1">
+        <title>Final Project</title>
+        <type>Project</type>
+        <dueDate>2025-12-05</dueDate>
+        <weight>40</weight>
+        <!-- ERROR: Missing <submission> element, required by DTD -->
+        <format>DOCX</format>
+        <policy>Late penalty: -10% per day</policy>
+    </assignment>
+</coursework>
+
+<!-- ❌ This will fail because <submission> is missing, which is required by the DTD. -->

@@ -1,0 +1,17 @@
+<!ELEMENT orders (order+)>
+
+<!ELEMENT order (restaurant, items, totalPrice, payment, delivery)>
+<!ATTLIST order id ID #REQUIRED>
+
+<!ELEMENT restaurant (#PCDATA)>
+<!ELEMENT items (item+)>
+<!ELEMENT item (name, quantity)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+
+<!ELEMENT totalPrice (#PCDATA)>
+<!ELEMENT payment (#PCDATA)>     <!-- e.g. Paid, Unpaid -->
+<!ELEMENT delivery (method, address, eta)>
+<!ELEMENT method (#PCDATA)>      <!-- Pickup or Delivery -->
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT eta (#PCDATA)>         <!-- Estimated time in minutes -->

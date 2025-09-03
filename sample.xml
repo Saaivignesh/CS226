@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coursework SYSTEM "domain.dtd">
+<coursework>
+    <assignment id="A1">
+        <title>Research Paper</title>
+        <type>Essay</type>
+        <dueDate>2025-09-15</dueDate>
+        <weight>30</weight>
+        <submission>Canvas</submission>
+        <format>PDF</format>
+        <policy>Late penalty: -5% per day</policy>
+    </assignment>
+
+    <assignment id="A2">
+        <title>Midterm Exam</title>
+        <type>Exam</type>
+        <dueDate>2025-10-10</dueDate>
+        <weight>25</weight>
+        <submission>In-person</submission>
+        <format>Paper</format>
+        <policy>No late submission allowed</policy>
+    </assignment>
+</coursework>
